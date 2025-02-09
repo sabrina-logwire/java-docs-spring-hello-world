@@ -18,6 +18,7 @@ public class DemoApplication {
         return "<html>" +  
                 "<head>" +  
                 "<title>Bienvenue</title>" +  
+                "<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css'>" +  
                 "<style>" +  
                 "body { " +  
                 "    display: flex; " +  
@@ -32,19 +33,19 @@ public class DemoApplication {
                 "h1 { " +  
                 "    color: #2c3e50; " +  
                 "} " +  
-                "img { " +  
-                "    width: 50px; " +  
-                "    height: 50px; " +  
+                "i { " +  
+                "    font-size: 50px; " +  
                 "    margin: 10px; " +  
+                "    color: #2c3e50;" +  
                 "}" +  
                 "</style>" +  
                 "</head>" +  
                 "<body>" +  
                 "<h1>Bienvenue dans le site de Sabrina !</h1>" +  
                 "<div>" +  
-                "    <img src='https://img.icons8.com/color/48/000000/sunrise.png' alt='Icône de lever de soleil'/>" +  
-                "    <img src='https://img.icons8.com/color/48/000000/smiling-face.png' alt='Icône de visage souriant'/>" +  
-                "    <img src='https://img.icons8.com/color/48/000000/heart.png' alt='Icône de cœur'/>" +  
+                "    <i class='fas fa-sun'></i>" +  // Icône de soleil  
+                "    <i class='fas fa-smile'></i>" + // Icône de visage souriant  
+                "    <i class='fas fa-heart'></i>" + // Icône de cœur  
                 "</div>" +  
                 "<p>Nous espérons que vous passerez un bon moment ici.</p>" +  
                 "</body>" +  
