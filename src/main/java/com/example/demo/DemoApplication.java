@@ -47,7 +47,7 @@ public class DemoApplication {
                 "    <i class='fas fa-smile'></i>" + // Icône de visage souriant  
                 "    <i class='fas fa-heart'></i>" + // Icône de cœur  
                 "</div>" +  
-                "<p>Nous espérons que vous passerez un bon moment ici.</p>" +  
+                "<p>Enjoy !</p>" +  
                 "</body>" +  
                 "</html>";  
     }  
